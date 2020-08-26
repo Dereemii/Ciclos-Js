@@ -40,18 +40,11 @@ if(inputCaballo == "blanco" || inputCaballo == "Blanco" || inputCaballo == "BLAN
 
     var frutas = [fruta1, fruta2, fruta3]
 
-    for (var i = 0; i < frutas.length; i++){
-        if(fruta1 == "manzana"){
-            frutas.shift()
-            console.log(frutas)
-        } else if(fruta2 == "manzana"){
-            frutas.splice(1,1);
-            console.log(frutas)
-        } else if(fruta3 == "manzana"){
-            frutas.pop();
-            console.log(frutas)
+    for  (let fruta of frutas){
+        if (fruta.toLocaleLowerCase()==="manzana"){
+            continue;
         }
-    } 
-  
+        console.log(fruta)
+    }
 
 
