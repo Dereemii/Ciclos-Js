@@ -1,7 +1,5 @@
 
-// Solicitar al usuario un número entre 1 al 100. Luego, se deberá imprimir por consola los números
-// desde el 0 hasta el número que ingresó el usuario.
-
+// Pregunta 1
     
 let inputNumero = prompt("Ingrese un numero entre 1 a 100");
 if( inputNumero > 101 && inputNumero < 0  ){
@@ -46,5 +44,21 @@ if(inputCaballo == "blanco" || inputCaballo == "Blanco" || inputCaballo == "BLAN
         }
         console.log(fruta)
     }
+ 
 
+//Pregunta 5
+var inputNombre = prompt("Ingrese su nombre de pila");
+inputNombre = inputNombre.toLocaleLowerCase();
 
+let vocales = [];
+let consonantes = [];
+let letras = []
+
+for (letra of inputNombre){
+    if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u"){
+        vocales.push(letras);
+    } else{
+        consonantes.push(letra);
+    }
+}
+alert("Tu nombre tiene " + consonantes.length + " consonantes perro" + "y " + vocales.length + " vocales" )
