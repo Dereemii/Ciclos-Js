@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+.container{
+    background-color: darkorchid;
+    border: solid 2px pink;
+    margin-top: 2em;
+    padding-bottom: 1em;
+}
+
+p{
+    color: darkorchid;
+    margin-top: 1em;
+}
+
+button{
+    margin-top: 1em;
+}
+
+h1{
+    text-align: center;
+}
